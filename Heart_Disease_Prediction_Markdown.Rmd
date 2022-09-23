@@ -1,0 +1,75 @@
+---
+title: "Heart Disease Prediction Model"
+authors: "Anmol,Keerthan,Nireesha,Harsha"
+date: '2022-09-23'
+output: html_document
+---
+
+
+## R Markdown
+
+              ------------------Heart Disease Introduction----------------------
+
+The term “heart disease” refers to several types of heart conditions. The most common type of heart disease in India is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.  
+
+Sometimes,heart disease may be “silent” and not diagnosed until a person experiences signs or symptoms of a heart attack, heart failure, or an arrhythmia. When these events happen, symptoms may include-
+
+1.Heart attack: Chest pain or discomfort, upper back or neck pain, indigestion, heartburn, nausea or    vomiting, extreme fatigue, upper body discomfort, dizziness, and shortness of breath.
+Arrhythmia: Fluttering feelings in the chest (palpitations).
+2.Heart failure: Shortness of breath, fatigue, or swelling of the feet, ankles, legs, abdomen, or neck veins.
+
+         ---------------------Heart Disease Prediction Model-------------------------
+  
+Heart Disease Prediction model uses the logistic regresssion to predict the risk of a person being vulnerable to heart disease by developing a relationship among 14 parameters provided by the person.
+
+The parameters taken for the prediction of heart disease are as follows-
+1.Age
+2.Sex
+3.Constrictive pericarditis(cp)
+4.The person's resting blood pressure(trestbps)
+5.Cholesterol(chol)
+6.Fasting blood sugar(fbs)
+7.Resting electrocardiograph(restecg)	
+8.The person's maximum heart rate achieved(thalach)	
+9.Exercise induced angina(exang)	
+10.ST depression induced by exercise relative to rest(oldpeak)	
+11.The ST segment shift relative to exercise-induced increments in heart rate(slope)	
+12.Coronary artery calcification(ca)
+13.Thalassemia level(thal)	
+14.Target
+
+
+Libraries Used-
+1.ggplot2
+2.psych
+3.caTools
+4.ROCR
+
+
+Steps performed to develop the Heart Disease Prediction model-
+
+1.Dataset Collection - Collected dataset from kaggle.
+
+2.Prepared Dataset - Cleaned Dataset & Visualisation by building a dashboard with the cleaned dataset in Google Data Studio.
+
+3.Performed descriptive analysis of the data using statistics.
+
+4.Performed multiple algorithms to compare for best outcome and finally,got best result with Logistic regression.
+
+5.Applied logistic regression algorithm on the model.
+
+6.Evaluated the result obtained after applying logistic regression on the dataset.
+
+7.Splitted the dataset into training dataset and testing dataset.
+
+8.Trained the model by applying logistic regression algorithm on the training dataset.
+
+9.Evaluated the prediction accuracy on the training data.
+
+10.After evaluation,removed some variables to improve the accuracy of the model.
+
+11.Re-evaluated the prediction accuracy on the training data.
+
+12.After getting improved accuracy,applied Logistic regression algorithm on the testing dataset.
+
+13.Evaluated the prediction accuracy on the testing data.
